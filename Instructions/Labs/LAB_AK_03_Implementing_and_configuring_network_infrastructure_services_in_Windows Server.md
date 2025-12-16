@@ -14,7 +14,7 @@ lab:
 1. On **SEA-ADM1**, on the taskbar, select **Microsoft Edge**.
 1. In **Microsoft Edge**, select **Windows Admin Center**.
 1. In the **Windows Security** dialog box, sign in as **Contoso\Administrator** with the password **Pa55w.rd**.
-1. In **Windows Admin Center**, select **SEA-SVR1**.
+1. In **Windows Admin Center**, select **SEA-DC1**.
 1. In the **Specify your credentials** dialog box, select **Use another account** for this connection, and then sign in as **Contoso\Administrator** with the password **Pa55w.rd**.
 1. On the **Tools** pane, select **Roles & features**.
 1. In the **Roles and features** pane, select the **DHCP Server** check box, and then select **Install**.
@@ -23,6 +23,7 @@ lab:
 1. In **Microsoft Edge**, select **Windows Admin Center**, and then select **SEA-SVR1**.
 1. On the **Tools** pane, select **DHCP**, and then on the **details** pane, select **Install**. If DHCP is not available in the **Tools** pane for **SEA-SVR1**, close **Microsoft Edge** and sign in to **Windows Admin Center** again.
 1. Wait for a notification that the DHCP PowerShell tools are installed. If necessary, select the **Notifications** icon to verify the current status.
+1. repeate step from **SEA-SVR1**
 
 ### Task 2: Authorize the DHCP server
 
@@ -31,6 +32,7 @@ lab:
 1. In the **DHCP Post-Install configuration wizard** window, on the **Description** screen, select **Next**.
 1. On the **Authorization** screen, select **Commit** to use the **Contoso\Administrator** credentials.
 1. When you complete both tasks, select **Close**.
+1. repeate step from **SEA-SVR1**
 
 ### Task 3: Create a scope
 
